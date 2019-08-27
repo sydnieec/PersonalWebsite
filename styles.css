@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:  border-box;
+
+}
+header{
+  background: #69848F;
+  padding: 20px;
+  text-align: right;
+} .icons{
+  position: absolute;
+  margin-right: 20px;
+
+} #github{
+  display: inline-block;
+  margin-right: 20px;
+
+}#linkedin{
+  display: inline-block;
+  margin-right: 20px;
+
+}#mail{
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+
+ header > h1{
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+} .About {
+  margin-top: 50px;
+  color: black;
+  width: 80%
+  position: relative;
+}#avatar{
+  text-align: center;
+  float: left;
+  margin-left: 250px;
+}#name {
+  text-align: center;
+  float: left;
+  margin-left: -100px;
+  margin-top: 150px;
+}#title{
+  text-align: center;
+  float: left;
+  margin-left: -100px;
+  margin-top: 150px;
+}
+
+.Projects{
+  margin: 20px auto;
+
+}.Education{
+  margin: 20px auto;
+
+}.Awards{
+  margin: 20px auto;
+
+}
