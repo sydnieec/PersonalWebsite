@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat&display=swap');
 *{
   margin:0;
   padding: 0;
@@ -5,7 +7,7 @@
 
 }
 header{
-  background: #69848F;
+  background: #BED7D1;
   padding: 20px;
   text-align: right;
 } .icons{
@@ -24,38 +26,98 @@ header{
   display: inline-block;
   margin-right: 20px;
 
-
 }
 
  header > h1{
   color: white;
   display: inline-block;
   margin-right: 10px;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 25px;
 } .About {
-  margin-top: 50px;
+  margin-top: 100px;
   color: black;
-  width: 80%
+  width: 60%
   position: relative;
 }#avatar{
   text-align: center;
-  float: left;
-  margin-left: 250px;
+  margin-top: 50px;
 }#name {
   text-align: center;
-  float: left;
-  margin-left: -100px;
-  margin-top: 150px;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: Lexend Deca, sans-serif;
+  font-weight: bolder;
 }#title{
   text-align: center;
-  float: left;
-  margin-left: -100px;
-  margin-top: 150px;
+  margin-top: 20px;
+  font-family: Monsterrat, sans-serif;
+
+}#description{
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
 }
 
 .Projects{
-  margin: 20px auto;
+  margin: 100px auto;
+  text-align: center;
+  width: 75;
 
-}.Education{
+}#headingprojects{
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: Lexend Deca, sans-serif;
+  color: #E1B037;
+  margin-bottom: 50px;
+} #CloudChaticon{
+} #CloudChatName{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Monsterrat, sans-serif;
+  margin-top: 25px;
+} #CloudChatDescription{
+  font-size: 25px;
+  font-family: Lexend Deca, sans-serif;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  text-align: center;
+
+}.DiagnosisBot{
+  text-align: center;
+}
+#DiagnosisBoticon{
+  text-align: center;
+
+} #DiagnosisBotName{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Monsterrat, sans-serif;
+  margin-top: 25px;
+} #DiagnosisBotDescription{
+  font-size: 20px;
+  font-family: Lexend Deca, sans-serif;
+  width: 85%;
+  margin-top: 50px;
+  margin-left: 10%;
+  text-align: center
+} #DiagnosisBoticon1{
+  margin-top: 100px;
+  display: inline-block;
+  margin-right: 10px;
+}#DiagnosisBoticon2{
+  display: inline-block;
+  margin-right: 10px;
+
+}#DiagnosisBoticon3{
+  display: inline-block;
+}
+
+
+
+.Education{
   margin: 20px auto;
 
 }.Awards{
