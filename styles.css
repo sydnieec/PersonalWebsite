@@ -34,11 +34,13 @@ header{
   margin-right: 10px;
   font-family: Lexend Deca, sans-serif;
   font-size: 25px;
-} .About {
+
+}
+ .About {
   margin-top: 100px;
   color: black;
   width: 60%
-  position: relative;
+  position:relative;
 }#avatar{
   text-align: center;
   margin-top: 50px;
@@ -72,8 +74,7 @@ header{
   color: #E1B037;
   margin-bottom: 50px;
   margin-left: 5%;
-} #CloudChaticon{
-} #CloudChatName{
+}  #CloudChatName{
   font-size: 30px;
   font-weight: bold;
   font-family: Monsterrat, sans-serif;
@@ -148,6 +149,8 @@ header{
   color: #E1B037;
   margin-bottom: 50px;
   margin-left: 5%;
+}#table{
+  text-align: center;
 }
 
 
@@ -157,5 +160,5 @@ header{
 
 }.Awards{
   margin: 20px auto;
-
+  text-align: center;
 }
