@@ -5,14 +5,18 @@
   padding: 0;
   box-sizing:  border-box;
 
-}
-header{
-  background: #BED7D1;
+}header{
+  background: #69848F;
   padding: 20px;
   text-align: right;
-} .icons{
-  position: absolute;
-  margin-right: 20px;
+}#nav { 
+  background: #69848F;
+  position: fixed;
+  max-height: 60px;
+
+} 
+.icons{
+  position: fixed;
 
 } #github{
   display: inline-block;
@@ -21,12 +25,13 @@ header{
 }#linkedin{
   display: inline-block;
   margin-right: 20px;
+  
 
-}#mail{
+}#devpost{
   display: inline-block;
   margin-right: 20px;
+} 
 
-}
 
  header > h1{
   color: white;
@@ -66,6 +71,16 @@ header{
   text-align: center;
   width: 75;
 
+} .card{
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: 1px solid black;
+  box-shadow: 6px 5px 2px black;
+  width: 500px;
+  background-color: #002230;
+  color: aliceblue;
 }#headingprojects{
   text-align: left;
   font-weight: bold;

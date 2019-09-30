@@ -3,38 +3,49 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <title>Sydnie Chau</title>
     <link rel="stylesheet" href="styles.css">
   
   </head>
   <body>
     <header>
+      <div class= "container is-fluid invisble" id="nav">
+        <!-- Navbar -->
+   
       <div class="icons">
         <div id="github"> 
-          <a href="https://github.com/sydnieec">
+          <a href="https://github.com/sydnieec" target="_blank" class="nav-item">
           <img src="images/githubicon.png" width="40" height="40" alt="">
           </a>
         </div>
       <div id="linkedin">
-          <a href="https://www.linkedin.com/in/sydnie-chau-ab95a713b/">
+        <a href="https://www.linkedin.com/in/sydnie-chau-ab95a713b/">
         <img src="images/linkedinicon.png" width="40" height="40" alt="">
       </a>
       </div>
-      <div id="mail">
-        <img src="images/mailicon.png" width="40" height="40" alt="">
+      <div id="devpost">
+        <a href="https://devpost.com/sydniechau?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+        <img src="images/devpost.png" width="40" height="40" alt="">
       </div>
-
-
-    </div>
     
-        
-      
-        
-      
-      <h1>About</h1>
-      <h1>Projects<h1>
-      <h1 id="resume_link"><a href="https://drive.google.com/file/d/1VByr2TVKlFI6xexJU9D1whm7AUPlVbE6/view?usp=sharing" >Resume</a><h1>
-    </header>
+    </div>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="https://drive.google.com/file/d/1VByr2TVKlFI6xexJU9D1whm7AUPlVbE6/view?usp=sharing">Resume</a>
+        </li>
+    </ul>
+    
+      </div>
+      </header>
 
     <div class="About">
       <div id="avatar">
@@ -48,37 +59,35 @@
 
     <div class="Projects">
       <div id="headingprojects">Projects</div>
-      <div class="CloudChat" id="CloudChatid">
-
-        <div id="CloudChaticon">
-          <img src="images/CloudChat.png"  width="250" height="250"alt="">
+    
+      <div class="card" id="cloudchatcard" style="width: 30rem;">
+          <img src="images/CloudChat.png" width="40" height="300"class="card-img-top" alt="Cloud Chat">
+          <div class="card-body">
+            <h5 class="card-title">Cloud Chat</h5>
+            <p class="card-text">Cloud Chat is a live messaging android application designed to connect groups of people with similar interests. Simiply create your own account, join an existing chatroom or create your own chatroom on Cloud Chat and start chatting away!</p>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Demo</a>
+          </div>
         </div>
-        <div id="CloudChatName">Cloud Chat</div>
-
-        <div id="CloudChatDescription">Cloud Chat is a live messaging android application designed to connect groups of people with similar interests. Simiply create your own account, join an existing chatroom or create your own chatroom on Cloud Chat and start chatting away! You can find the link to the demo here.
-        </div>
-      </div>
-
-    </div>
-
-    <div class="DiagnosisBot" id="DiagnosisBotid">
-        <div id="DiagnosisBoticon">
-          <img src="images/DiagnosisBot.png"  width="250" height="250"alt="">
-        </div>
-        <div id="DiagnosisBotName">Diagnosis Bot</div>
-        <div id="DiagnosisBotDescription">Diagnosis Bot is a chatbot that is designed to give users a short, safe an anonymous health checkup. This application is aimed to help users who cannot visit a health professional but wish to receive a diagnosis based on symptoms. After entering basic user information, Diagnosis Bot will begin an interview with the user, asking the user for initial symptoms and follow-up with addtional questions mimicking a real life conversation. After a series of questions, Diagnosis Bot will provide the users of a list of probable conditions the user may be experiencing. The demo for Diagnosis Bot can be found here.</div>
-        <div class="DiagnosisBotPictures">
-        <div id="DiagnosisBoticon1">
-          <img src="images/Diagnosisbot1.png"  width="300" height="450"alt="">
-        </div>
-        <div id="DiagnosisBoticon2">
-          <img src="images/Diagnosisbot2.png" width="300" height="450"  alt="">
-        </div>
-        <div id="DiagnosisBoticon3">
-          <img src="images/Diagnosisbot3.png" width="300" height="450 alt="">
-        </div>
-      </div>
-      </div>
+        <div class="card" id="diagnosisbotcard" style="width: 30rem;">
+            <img src="images/Diagnosisbot.png"  width="40" height="280" class="card-img-top" alt="Diagnosis Bot">
+            <div class="card-body">
+              <h5 class="card-title">Diagnosis Bot</h5>
+              <p class="card-text">Diagnosis Bot is a chatbot that is designed to give users a short, safe an anonymous health checkup. Diagnosis Bot will begin an interview with the user, after a series of questions, Diagnosis Bot will provide the users of a list of probable conditions. </p>
+              <a href="#" class="btn btn-primary">Github</a>
+              <a href="#" class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+          <div class="card" id="airpatrolcard" style="width: 30rem;">
+              <img src="images/Diagnosisbot.png"  width="40" height="280" class="card-img-top" alt="Air Patrol">
+              <div class="card-body">
+                <h5 class="card-title">Air Patrol</h5>
+                <p class="card-text">Diagnosis Bot is a chatbot that is designed to give users a short, safe an anonymous health checkup. Diagnosis Bot will begin an interview with the user, after a series of questions, Diagnosis Bot will provide the users of a list of probable conditions. </p>
+                <a href="#" class="btn btn-primary">Github</a>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+    
 
     <div class="Education">
       <div id="headingeducation">Education</div>
@@ -89,29 +98,28 @@
       <div id="diploma">IB Diploma Programme & Ontario Secondary School Diploma </div>
       <div id="year">September 2016 - June 2020 </div>
     </div>
-
+    
 
     <div class="Awards">
       <div id="headingawards">Awards</div>
       <table class="content-table" id="table">
-      <table>
-        <thead>
-            <tr>
-                <th>Award Name</th>
-                <th>Date</th>
-            </tr>
-            <tr>
-                <td>chicken</td>
-                <td>chicken2</td>
-            </tr>
-          </thead>
-          <table>
+        <ul class="list-group">
+          <li class="list-group-item">October 2019- Academic Acheivement Excellence Award</li>
+          <li class="list-group-item">October 2019- Honour Roll</li>
+          <li class="list-group-item">April 2018- ECOO Programming Board Wide Contest: First
+              Place Ladies</li>
+          <li class="list-group-item">November 2018- DECA Regional Event Finalist </li>
+        </ul>
     </div>
     
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="app.js" charset="utf-8"></script>
+    
   </body>
 </html>
