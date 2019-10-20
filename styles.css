@@ -4,7 +4,6 @@
   margin:0;
   padding: 0;
   box-sizing:  border-box;
-
 }header{
   background: #69848F;
   padding: 20px;
@@ -13,33 +12,25 @@
   background: #69848F;
   position: fixed;
   max-height: 60px;
-
 } 
 .icons{
   position: fixed;
-
 } #github{
   display: inline-block;
   margin-right: 20px;
-
 }#linkedin{
   display: inline-block;
   margin-right: 20px;
-  
-
 }#devpost{
   display: inline-block;
   margin-right: 20px;
 } 
-
-
  header > h1{
   color: white;
   display: inline-block;
   margin-right: 10px;
   font-family: Lexend Deca, sans-serif;
   font-size: 25px;
-
 }
  .About {
   margin-top: 100px;
@@ -59,18 +50,15 @@
   text-align: center;
   margin-top: 20px;
   font-family: Monsterrat, sans-serif;
-
 }#description{
   margin: 20px auto;
   width: 50%;
   text-align: center;
 }
-
 .Projects{
   margin: 100px auto;
   text-align: center;
   width: 75;
-
 } .card{
   display: inline-block;
   margin-right: 5%;
@@ -101,13 +89,11 @@
   margin-top: 50px;
   margin-left: 10%;
   text-align: center;
-
 }.DiagnosisBot{
   text-align: center;
 }
 #DiagnosisBoticon{
   text-align: center;
-
 } #DiagnosisBotName{
   font-size: 30px;
   font-weight: bold;
@@ -127,10 +113,30 @@
 }#DiagnosisBoticon2{
   display: inline-block;
   margin-right: 10px;
-
 }#DiagnosisBoticon3{
   display: inline-block;
-}.Education{
+}.Experiences{
+  text-align: center;
+}#headingexperiences{
+  text-align: left;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: Lexend Deca, sans-serif;
+  color: #E1B037;
+  margin-bottom: 50px;
+  margin-left: 5%;
+}.Skills{
+  text-align: center;
+}#headingskills{
+  text-align: left;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: Lexend Deca, sans-serif;
+  color: #E1B037;
+  margin-bottom: 50px;
+  margin-left: 5%;
+}
+.Education{
   text-align: center;
 
 }#headingeducation{
@@ -141,7 +147,9 @@
   color: #E1B037;
   margin-bottom: 50px;
   margin-left: 5%;
-}#school{
+}
+
+#school{
   margin-top: 10px;
   font-size: 30px;
   font-weight: bold;
@@ -167,9 +175,6 @@
 }#table{
   text-align: center;
 }
-
-
-
 .Education{
   margin: 20px auto;
 
