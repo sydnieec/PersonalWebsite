@@ -61,9 +61,10 @@
   width: 75;
 } .card{
   display: inline-block;
-  margin-right: 5%;
-  margin-top: 10%;
-  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-bottom: 5%;
   border: 1px solid black;
   box-shadow: 6px 5px 2px black;
   width: 500px;
@@ -77,45 +78,7 @@
   color: #E1B037;
   margin-bottom: 50px;
   margin-left: 5%;
-}  #CloudChatName{
-  font-size: 30px;
-  font-weight: bold;
-  font-family: Monsterrat, sans-serif;
-  margin-top: 25px;
-} #CloudChatDescription{
-  font-size: 25px;
-  font-family: Lexend Deca, sans-serif;
-  width: 80%;
-  margin-top: 50px;
-  margin-left: 10%;
-  text-align: center;
-}.DiagnosisBot{
-  text-align: center;
-}
-#DiagnosisBoticon{
-  text-align: center;
-} #DiagnosisBotName{
-  font-size: 30px;
-  font-weight: bold;
-  font-family: Monsterrat, sans-serif;
-  margin-top: 25px;
-} #DiagnosisBotDescription{
-  font-size: 20px;
-  font-family: Lexend Deca, sans-serif;
-  width: 85%;
-  margin-top: 50px;
-  margin-left: 10%;
-  text-align: center
-} #DiagnosisBoticon1{
-  margin-top: 100px;
-  display: inline-block;
-  margin-right: 10px;
-}#DiagnosisBoticon2{
-  display: inline-block;
-  margin-right: 10px;
-}#DiagnosisBoticon3{
-  display: inline-block;
-}.Experiences{
+} .Experiences{
   text-align: center;
 }#headingexperiences{
   text-align: left;
@@ -126,7 +89,7 @@
   margin-bottom: 50px;
   margin-left: 5%;
 }.Skills{
-  text-align: center;
+
 }#headingskills{
   text-align: left;
   font-weight: bold;
@@ -135,6 +98,32 @@
   color: #E1B037;
   margin-bottom: 50px;
   margin-left: 5%;
+} #skillslist{ 
+} #skills1{
+  display: inline-block;
+  margin-left: 20%;
+}#skills2{
+  display: inline-block;
+  margin-left: 20%;
+}#skills3{
+  display: inline-block;
+  margin-left: 20%;
+}#skills4{
+  display: inline-block;
+  margin-left: 20%;
+}#skills5{
+  display: inline-block;
+  margin-left: 20%;
+}#skills6{
+  display: inline-block;
+  margin-left: 20%;
+}}#skills7{
+  display: inline-block;
+  margin-left: 20%;
+}#skills8{
+  display: inline-block;
+  margin-left: 20%;
+
 }
 .Education{
   text-align: center;
@@ -181,4 +170,14 @@
 }.Awards{
   margin: 20px auto;
   text-align: center;
+}.Getintouch{
+  text-align: center;
+}#heading_getintouch{
+  text-align: left;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: Lexend Deca, sans-serif;
+  color: #E1B037;
+  margin-bottom: 50px;
+  margin-left: 5%;
 }
