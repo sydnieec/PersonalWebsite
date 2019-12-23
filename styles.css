@@ -26,7 +26,7 @@
   margin-right: 20px;
 } 
  header > h1{
-  color: white;
+  color: thistle;
   display: inline-block;
   margin-right: 10px;
   font-family: Lexend Deca, sans-serif;
@@ -35,7 +35,7 @@
  .About {
   margin-top: 100px;
   color: black;
-  width: 60%
+  background-color: white;
   position:relative;
 }#avatar{
   text-align: center;
@@ -46,60 +46,71 @@
   font-size: 50px;
   font-family: Lexend Deca, sans-serif;
   font-weight: bolder;
-}#title{
-  text-align: center;
-  margin-top: 20px;
-  font-family: Monsterrat, sans-serif;
 }#description{
   margin: 20px auto;
   width: 50%;
   text-align: center;
+  font-family: Monsterrat, sans-serif;
+
 }
 .Projects{
   margin: 100px auto;
   text-align: center;
   width: 75;
+  background-color: #f7e6e6;
 } .card{
   display: inline-block;
   margin-right: 10%;
   margin-top: 10px;
   margin-left: 5%;
   margin-bottom: 5%;
-  border: 1px solid black;
-  box-shadow: 6px 5px 2px black;
   width: 500px;
-  background-color: #002230;
-  color: aliceblue;
+  color: black;
 }#headingprojects{
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
 } .Experiences{
   text-align: center;
+
+}#companyname{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Monsterrat, sans-serif;
+  }#position{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Monsterrat, sans-serif;
+  }#yearsworked{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Monsterrat, sans-serif;
+    padding-bottom: 20px;
+  
 }#headingexperiences{
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
 }.Skills{
-
+background-color: #f7e6e6;
 }#headingskills{
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
-} #skillslist{ 
-} #skills1{
+}  #skills1{
   display: inline-block;
   margin-left: 20%;
 }#skills2{
@@ -117,7 +128,7 @@
 }#skills6{
   display: inline-block;
   margin-left: 20%;
-}}#skills7{
+}#skills7{
   display: inline-block;
   margin-left: 20%;
 }#skills8{
@@ -133,7 +144,7 @@
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
 }
@@ -158,7 +169,7 @@
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
 }#table{
@@ -172,12 +183,17 @@
   text-align: center;
 }.Getintouch{
   text-align: center;
+  background-color: #f7e6e6;
 }#heading_getintouch{
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
-  color: #E1B037;
+  color: #0f6cf7;
   margin-bottom: 50px;
   margin-left: 5%;
+} #githubicon{
+  margin-right: 5%;
+}#linkedinicon{
+  margin-right: 5%;
 }
