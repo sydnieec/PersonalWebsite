@@ -52,31 +52,36 @@ section {
 }
  .About {
   padding-top: 200px;
-  color: black;
+  color: white;
   background-color: #ffa8a8;
   position:relative;
-}#avatar{
+}
+/* #avatar{
   text-align: center;
   margin-top: 50px;
   background-color: #ffa8a8;
-}#name {
+} */
+#name {
   text-align: center;
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 100px;
   font-family: Lexend Deca, sans-serif;
   font-weight: bolder;
   background-color: #ffa8a8;
 }#description{
-  margin: 20px auto;
-  width: 50%;
+  margin: 30px auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  width: 60%;
   text-align: center;
   font-family: Lexend Deca, sans-serif;
+  font-size: 20px;
   background-color: #ffa8a8;
   color: #363636;
 
 } #arrow {
   margin-left: 47%;
-  margin-top: 2000%;
+  margin-top: 3000%;
   
 }
 .Projects{
