@@ -110,7 +110,8 @@ section {
   color: black;
   margin-bottom: 50px;
   margin-left: 5%;
-} .Experiences{
+}
+/* } .Experiences{
   text-align: center;
   background-color:#fff7f7;
   padding-bottom: 50px;
@@ -135,7 +136,8 @@ section {
   color: black;
   margin-bottom: 50px;
   margin-left: 5%;
-}.Skills{
+} */
+.Skills{
   background-color: #fff7f7;
 font-family: Lexend Deca,sans-serif;
 }#headingskills{
