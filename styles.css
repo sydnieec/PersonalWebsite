@@ -150,7 +150,7 @@ font-family: Lexend Deca,sans-serif;
   margin-left: 5%;
 }  #skills1{
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 14%;
 }#skills2{
   display: inline-block;
   margin-left: 20%;
@@ -159,7 +159,7 @@ font-family: Lexend Deca,sans-serif;
   margin-left: 20%;
 }#skills4{
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 14%;
 }#skills5{
   display: inline-block;
   margin-left: 20%;
@@ -168,11 +168,12 @@ font-family: Lexend Deca,sans-serif;
   margin-left: 20%;
 }#skills7{
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 14%;
 }#skills8{
   display: inline-block;
   margin-left: 20%;
-
+}#tags{
+  color:gray
 }
 .Education{
   text-align: center;
@@ -199,6 +200,7 @@ font-family: Lexend Deca,sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-family: Lexend Deca, sans-serif;
+  margin-bottom: 50px;
 }.Awards{
   text-align: center;
 }#headingawards{
