@@ -26,7 +26,7 @@ section {
   margin:0;
   padding: 0;
   box-sizing:  border-box;
-  background-color: #fff7f7;
+  background-color: no-repeat #fff7f7;
 }header{
   background: #69848F;
   padding: 20px;
@@ -86,12 +86,16 @@ section {
 } #arrow {
   margin-left: 47%;
   margin-top: 3000%;
+  background-color: white;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   
 }
 .Projects{
-  margin-left: 100px;
-  margin-bottom: 100px;
-  margin-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
   text-align: center;
   width: 75;
   background-color: #fff7f7;
@@ -105,14 +109,16 @@ section {
   margin-bottom: 5%;
   width: 500px;
   color: black;
-}#headingprojects{
+  background-color: #ffffff;
+}
+#headingprojects{
   padding-top: 100px;
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
   color: black;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   margin-left: 5%;
 }
 /* } .Experiences{
@@ -187,12 +193,12 @@ font-family: Lexend Deca,sans-serif;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
   color: black;
-  margin-bottom: 50px;
-  margin-left: 5%;
+  padding-bottom: 50px;
+  padding-left: 5%;
 }
 
 #school{
-  margin-top: 10px;
+  padding-top: 10px;
   font-size: 30px;
   font-weight: bold;
   font-family: Lexend Deca, sans-serif;
@@ -204,29 +210,30 @@ font-family: Lexend Deca,sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-family: Lexend Deca, sans-serif;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }.Awards{
   text-align: center;
+  background-color: #fff7f7;
 }#headingawards{
   text-align: left;
   font-weight: bold;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
   color: black;
-  margin-bottom: 50px;
-  margin-left: 5%;
+  padding-bottom: 50px;
+  padding-left: 5%;
 }.Education{
-  margin: 20px auto;
+  padding: 20px ;
   background-color: #fff7f7;
 
 }.Awards{
-  margin: 20px auto;
+  padding: 20px;
   text-align: center;
   font-family: Lexend Deca,sans-serif;
   
 }.table{
   border:1px solid #fff7f7;
-  margin-top:20px;
+  padding-top:20px;
 
 }.table > thead > tr > th{
   border:1px solid #fff7f7;
@@ -244,7 +251,7 @@ font-family: Lexend Deca,sans-serif;
   font-size: 45px;
   font-family: Lexend Deca, sans-serif;
   color: black;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: #ffa8a8;
 } #githubicon{
